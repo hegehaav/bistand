@@ -1,10 +1,13 @@
-/*.Header {
-  background-color: red;
+.Header {
+  /*background-color: red;
   padding-top: 5px;
   padding-bottom: 5px;
-
-}
 */
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+}
+
 .header {
   background-color: #0080ff;
   height: 40px;
@@ -12,4 +15,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
