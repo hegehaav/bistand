@@ -1,0 +1,9 @@
+.menu{
+  width: 32px;
+}
+
+.menu-line{
+  height: 4px;
+  background-color: red;
+  margin-bottom: 4px; 
+}

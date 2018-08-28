@@ -4,9 +4,9 @@ import '../styles/ReleaseContent.css';
 class ReleaseContent extends Component {
   render() {
     return (
-      <h1 className="content">
-        Kommer 1. september
-      </h1>
+      <div className="content">
+        <img className="image" src={require('../images/info.png')}/>
+      </div>
     );
   }
 }

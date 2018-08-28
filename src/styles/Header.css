@@ -1,21 +1,15 @@
 .Header {
   background-color: red;
-  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 
 }
 
 .header {
   background-color: #0080ff;
-  height: 50px;
+  height: 40px;
   padding: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 
-}
-
-.Header-title {
-  font-size: 1.5em;
-}
-
-.Header-intro {
-  font-size: large;
 }
