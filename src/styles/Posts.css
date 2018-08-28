@@ -1,0 +1,27 @@
+.date{
+  color: grey;
+}
+
+.post-list-item{
+  list-style: none;
+  text-align: center;
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clip{
+  width: 30%;
+}
+.chat{
+  widht: 80%;
+}
+
+.post-end{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: blue;
+}

@@ -1,9 +1,14 @@
-.menu{
+.menu-button{
   width: 32px;
+  border: none;
+  background-color: inherit;
+  cursor: grab;
+
+
 }
 
 .menu-line{
   height: 4px;
   background-color: red;
-  margin-bottom: 4px; 
+  margin-bottom: 4px;
 }
