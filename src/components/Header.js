@@ -6,9 +6,10 @@ class Header extends Component {
     return (
       <div className="Header">
         <header className="header">
-          <h1 className="Header-title">BISTAND</h1>
+          <img src={require("../images/bistandlogo.png")}/>
         </header>
       </div>
+
     );
   }
 }
