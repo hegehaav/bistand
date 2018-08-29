@@ -10,7 +10,7 @@ top: 0;
 
 .header {
   background-color: #0080ff;
-  height: 80px;
+  height: 150px;
   padding: 20px;
   display: flex;
   justify-content: space-between;

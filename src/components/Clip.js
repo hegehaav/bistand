@@ -1,10 +1,13 @@
 import React from 'react';
+import ReactPlayer from 'react-player'
+
 import "../styles/Posts.css"
 
-const Clip = ({date}) => (
+const Clip = ({date, videoUrl}) => (
   <li className="post-list-item">
     <p className="date">{date}</p>
-    <img className="chat" src={require("../images/ClipExample.png")}></img>
+    <ReactPlayer url={videoUrl}/>
+
     <hr className="post-end"></hr>
   </li>
 )
