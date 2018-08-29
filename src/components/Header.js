@@ -41,7 +41,8 @@ class Header extends Component {
             onMouseOut= {this.handleMouseOut}
             src={require(`../images/${this.state.imgSrc}`)}
           />
-          <Link to='/profiler'>
+          
+          <Link to='/meny'>
             <img src={require(`../images/menu.png`)} />
           </Link>
         </header>

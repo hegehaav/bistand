@@ -1,14 +1,28 @@
-.menu-button{
-  width: 32px;
-  border: none;
-  background-color: inherit;
-  cursor: grab;
+.menu{
+  background-color: #37d5b6;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.menu-item {
+  margin-top: 50px;
+  text-decoration: none;
 
 }
 
-.menu-line{
-  height: 4px;
-  background-color: red;
-  margin-bottom: 4px;
+.menu-button{
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+.close-icon{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 100px;
+  margin-top: 50px;
+
 }

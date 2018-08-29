@@ -14,14 +14,14 @@
 }
 
 .clip{
-  width: 30%;
-}
-.chat{
-  widht: 80%;
+  width: 100%;
 }
 
+
 .post-end{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color: blue;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  width: 100px;
+  height: 1px;
+  background-color: #0580ff;
 }

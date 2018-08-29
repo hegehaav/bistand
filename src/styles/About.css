@@ -1,0 +1,16 @@
+.about {
+  background-color: #37d5b6;
+  height: 100vh;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  color: white;
+  margin-top: 50px;
+  font-weight: lighter;
+
+}
