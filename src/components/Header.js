@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Header.css';
 import Menu from "./Menu.js";
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
   constructor(props){
@@ -32,13 +33,17 @@ class Header extends Component {
       <div className="Header">
         <header className="header">
 
-          <img src={require(`../images/abakus_logo_white.png`)} />
+          <Link to='/' >
+            <img src={require(`../images/abakus_logo_white.png`)} />
+          </Link>
           <img
             onMouseOver={this.handleMouseOver}
             onMouseOut= {this.handleMouseOut}
             src={require(`../images/${this.state.imgSrc}`)}
           />
-          <img src={require(`../images/menu.png`)} />
+          <Link to='/profiler'>
+            <img src={require(`../images/menu.png`)} />
+          </Link>
         </header>
       </div>
 
