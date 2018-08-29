@@ -3,7 +3,7 @@ import Clip from './Clip';
 import Chat from './Chat';
 
 
-const Posts = (props) => {
+const Posts = ({props}) => {
   const postList = props.posts.map((post) => {
     if (post.type == "CHAT"){
       return (

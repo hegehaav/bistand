@@ -1,0 +1,22 @@
+.profile_div{
+  position: relative;
+  float: left;
+  width: 100%;
+
+}
+.profile_image{
+  width: 100%;
+  display: block;
+}
+
+
+
+.profile_meta{
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 170px;
+  left: 500px;
+  z-index: 1;
+
+}
