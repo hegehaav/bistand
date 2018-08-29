@@ -7,7 +7,7 @@ class Header extends Component {
     super(props);
 
     this.state = {
-      imgSrc: "bistandlogo.png"
+      imgSrc: "bistandlogo-blanc.png"
     };
     this.handleMouseOver = this.handleMouseOver.bind(this);
     this.handleMouseOut = this.handleMouseOut.bind(this);
@@ -18,13 +18,13 @@ class Header extends Component {
 
   handleMouseOver() {
     this.setState({
-      imgSrc: 'bistandlogoRed.png'
+      imgSrc: 'bistandlogo-red.png'
     });
   }
 
   handleMouseOut() {
     this.setState({
-      imgSrc: 'bistandlogo.png'
+      imgSrc: 'bistandlogo-blanc.png'
     });
   }
   render() {
