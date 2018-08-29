@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Home.css';
 import Posts from './Posts.js'
+
 class Home extends Component {
   constructor(props){
     super(props)
@@ -11,8 +12,10 @@ class Home extends Component {
   render() {
 
     return (
+      <div>
+        <Posts posts={this.state.posts}/>
+      </div>
 
-      <Posts posts={this.state.posts}/>
         );
   }
 }
