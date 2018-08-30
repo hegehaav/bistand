@@ -32,16 +32,17 @@ class Header extends Component {
     return (
       <div className="Header">
         <header className="header">
-          
+
           <Link to='/' >
             <img src={require(`../images/abakus_logo.png`)} />
           </Link>
-          <img
-            onMouseOver={this.handleMouseOver}
-            onMouseOut= {this.handleMouseOut}
-            src={require(`../images/${this.state.imgSrc}`)}
-          />
-
+          <Link to='/'>
+            <img
+              onMouseOver={this.handleMouseOver}
+              onMouseOut= {this.handleMouseOut}
+              src={require(`../images/${this.state.imgSrc}`)}
+            />
+          </Link>
           <Link to='/meny'>
             <img src={require(`../images/menu.png`)} />
           </Link>
