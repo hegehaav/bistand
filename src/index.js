@@ -6,7 +6,7 @@ import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
 render((
-  <BrowserRouter>
+  <BrowserRouter >
     <App/>
   </BrowserRouter>
 ), document.getElementById('root'));

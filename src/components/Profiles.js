@@ -7,17 +7,17 @@ const Profiles = () => (
     <Profile
       name="Målfrid"
       instaUrl="https://www.instagram.com/mollyaaraas/"
-      imageUrl="profiles_maalfrid.jpg"
+      imageUrl="profile_image_maalfrid.jpg"
     />
     <Profile
       name="Marie"
       instaUrl="https://www.instagram.com/mariehaga/"
-      imageUrl="profiles_haga.jpg"
+      imageUrl="profile_image_marie.jpg"
     />
     <Profile
       name="Hege"
       instaUrl="https://www.instagram.com/hegehaavaldsen/"
-      imageUrl="profiles_hege.jpg"
+      imageUrl="profile_image_hege.jpg"
     />
   </div>
 

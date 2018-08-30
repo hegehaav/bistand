@@ -8,7 +8,7 @@ import About from './About.js';
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={Home}/>
+      <Route  exact path='/' component={Home}/>
       <Route exact path='/meny' component={Menu}/>
       <Route exact path='/profiler' component={Profiles}/>
       <Route exact path='/om' component={About}/>
