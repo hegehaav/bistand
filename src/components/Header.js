@@ -36,7 +36,7 @@ class Header extends Component {
           <Link to='/' >
             <img src={require(`../images/abakus_logo.png`)} />
           </Link>
-          <Link to='/'>
+          <Link className="img-container" to='/'>
             <img
               onMouseOver={this.handleMouseOver}
               onMouseOut= {this.handleMouseOut}
