@@ -1,0 +1,28 @@
+.date{
+  color: grey;
+  font-weight: 200
+}
+
+.post-list-item{
+  list-style: none;
+  text-align: center;
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clip{
+  width: 100%;
+}
+
+
+.post-end{
+  margin-top: 75px;
+  margin-bottom: 75px;
+  width: 100px;
+  height: 1px;
+  background-color: #0580ff;
+}
